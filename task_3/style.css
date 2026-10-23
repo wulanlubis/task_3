@@ -1,0 +1,114 @@
+/* 1. ELEMENT SELECTOR */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #192a42;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+label, .label-title {
+    font-weight: 600;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+
+/* 2. CLASS SELECTOR (Box, Layout & Table)*/
+
+.card-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Desain Box */
+    width: 100%;
+    max-width: 420px;
+}
+
+.card-large {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #086288;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-back:hover {
+    text-decoration: underline;
+}
+
+/* Desain Tabel Detail */
+.table-detail {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table-detail th,
+.table-detail td {
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-detail th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-detail tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 3. ID SELECTOR */
+
+#form-pendaftaran {
+    display: flex;
+    flex-direction: column;
+}
